@@ -1,6 +1,4 @@
-def main():
-    print("Hello from spotifydataanalysisdashboard!")
+import streamlit as st
+from app.data import get_data, distinct_genres
 
-
-if __name__ == "__main__":
-    main()
+st.header("Spotify 2025 Dashboard")
